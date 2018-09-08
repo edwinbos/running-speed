@@ -18,7 +18,7 @@ class Calculate extends Component {
     handleChangeDistance = (event) => {
         this.setState({
             distance: event.target.value
-        }, this.calculateRunningSpeed());
+        });
     }
 
     handleChangeHours = (event) => {
@@ -26,7 +26,7 @@ class Calculate extends Component {
 
         this.setState({
             hours: hours
-        }, this.calculateRunningSpeed());
+        });
     }
 
     handleChangeMinutes = (event) => {
@@ -34,13 +34,13 @@ class Calculate extends Component {
 
         this.setState({
             minutes: minutes
-        }, this.calculateRunningSpeed());
+        });
     }
 
     handleChangeSeconds = (event) => {
         this.setState({
             seconds: parseFloat(event.target.value)
-        }, this.calculateRunningSpeed());
+        });
     }
 
     calculateRunningSpeed = (event) => {
@@ -73,7 +73,8 @@ class Calculate extends Component {
                     <span>Seconds</span>
                     <input id="seconds" name="seconds" type="number" onChange={this.handleChangeSeconds} />
                 </label>
-                Output:<br/>
+                <button type="submit" onClick={this.calculateRunningSpeed}>Calculate</button>
+                <br/>
                 {this.state.runningSpeed} km/u<br/>
             </div>
         )
