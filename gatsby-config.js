@@ -12,7 +12,7 @@ module.exports = {
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#333333',
-        display: 'minimal-ui',
+        display: 'standalone',
         icon: 'src/images/fetch.png',
       },
     },
