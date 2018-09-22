@@ -57,7 +57,7 @@ class Calculate extends Component {
 
     render() {
         return(
-            <div>
+            <div class="page">
                 {this.state.runningSpeed ? <Result result={this.state.runningSpeed} /> : null }
                 <div class="calculate">
                     <div class="calculate__fields">
