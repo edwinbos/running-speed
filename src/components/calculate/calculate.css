@@ -1,12 +1,13 @@
-.calulate-result {
-    height: 50vh;
-}
-
 .calculate {
     background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    bottom: 2rem;
+    left: 2rem;
     padding: 2rem;
+    position: fixed;
     text-align: center;
-    height: 50vh;
+    width: calc(100% - 4rem);
 }
 .calculate__fields {
     display: grid;
