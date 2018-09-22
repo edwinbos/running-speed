@@ -1,0 +1,55 @@
+.calulate-result {
+    height: 50vh;
+}
+
+.calculate {
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    height: 50vh;
+}
+.calculate__fields {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, auto);
+    margin-bottom: 2rem;
+}
+
+label {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+label span {
+    color: #999;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+label input {
+    height: 4rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+button {
+    background: linear-gradient(#f1f1f1 0%, #f3f3f3 100%);
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+    color: royalblue;
+    cursor: pointer;
+    font-weight: 700;
+    height: 4rem;
+    max-width: 32rem;
+    width: 100%;
+}
+
+button:hover {
+    background: royalblue;
+    color: #fff;
+}

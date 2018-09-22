@@ -1,15 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
-import Calculate from '../components/calculate'
+import Layout from '../components/layout/layout'
+import Calculate from '../components/calculate/calculate'
 
 const IndexPage = () => (
   <Layout>
-    <p>Inserts information</p>
     <Calculate/>
     <br/>
-    <Link to="/about/">About</Link>
+    {/* <Link to="/about/">About</Link> */}
   </Layout>
 )
 
