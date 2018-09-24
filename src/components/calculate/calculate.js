@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'gatsby'
 import Result from '../result/result'
 
 import './calculate.css'
@@ -57,7 +58,7 @@ class Calculate extends Component {
 
     render() {
         return(
-            <div class="page">
+            <div class="content">
                 {this.state.runningSpeed ? <Result result={this.state.runningSpeed} /> : null }
                 <div class="calculate">
                     <div class="calculate__fields">
@@ -106,8 +107,10 @@ class Calculate extends Component {
                             </label>
                         </div>
                     </div>
-                    
-                    <button type="submit" onClick={this.calculateRunningSpeed}>Calculate</button>
+                    <div>
+                        <button type="submit" onClick={this.calculateRunningSpeed}>Fetch speed</button>
+                    </div>
+                    <Link to="/about/" class="calculate__link">about</Link>
                 </div>
             </div>
         )

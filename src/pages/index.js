@@ -7,8 +7,6 @@ import Calculate from '../components/calculate/calculate'
 const IndexPage = () => (
   <Layout>
     <Calculate/>
-    <br/>
-    {/* <Link to="/about/">About</Link> */}
   </Layout>
 )
 

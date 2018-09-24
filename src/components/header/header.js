@@ -5,9 +5,9 @@ const Header = ({ siteTitle }) => (
   <div>
     <div>
       <h1>
-        <Link to="/">
+        {/* <Link to="/"> */}
           {siteTitle}
-        </Link>
+        {/* </Link> */}
       </h1>
     </div>
   </div>

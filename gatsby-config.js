@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: 'Fetch - Calculate your running speed',
+    title: 'Fetch',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
+        name: 'Fetch',
         short_name: 'Fetch',
         start_url: '/',
         background_color: '#ffffff',
