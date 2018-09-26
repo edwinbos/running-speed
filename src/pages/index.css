@@ -1,0 +1,40 @@
+.page {
+    background: white;   
+}
+
+.page--index {
+    background: transparent;
+}
+
+.page__header {
+    background: white;
+    border-top: 3px solid royalblue;
+    padding: 0 2rem;
+}
+
+.page__header-title {
+    color: royalblue;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.page__back {
+    color: #454f65;
+    display: block;
+    padding: 2rem 0 0 0;
+    text-decoration: none;
+}
+
+.page__back svg {
+    height: auto;
+    margin-left: -0.6rem;
+    transform: rotate(180deg);
+    width: 3rem;
+}
+
+.page__content {
+    padding: 0 2rem 4rem;
+}
+

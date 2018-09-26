@@ -7,11 +7,20 @@ body {
     background: url(../../images/stairs.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
+    color: #454f65;
     font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif;
     font-size: 1.6rem;
 }
 
+p {
+    line-height: 2.4rem;
+}
+
+a {
+    color: royalblue;
+}
+
 h1 {
-    color: white;
-    text-align: center;
+    color: #454f65;
+    margin-top: 0;
 }

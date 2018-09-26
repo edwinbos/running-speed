@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
         </Helmet>
         <div>
-          <Header siteTitle={data.site.siteMetadata.title} />
+          {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
           <div>
             {children}
           </div>
